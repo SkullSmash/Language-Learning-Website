@@ -1,0 +1,111 @@
+#scroll-progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 5px;
+    background-image: linear-gradient(to right,red,yellow,green);
+    width: 0%;
+    z-index: 1000;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+    letter-spacing: 0.15em;
+    transition: 0.5s;
+}
+html,
+body {
+  color: white;
+  background-color: #252525;
+  font-family: 'Futura', Arial, sans-serif;
+  line-height: 1.5;
+}
+
+header {
+  color: skyblue;
+  margin: 10px 58%;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: 'Playpen Sans';
+}
+
+p,ol{
+    color: white;
+    text-align: left;
+    margin-left: 24%;
+
+}
+table,th,td{
+    border:1px dashed white;}
+/*english content*/
+
+#navbar {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height:auto;
+    border-right: solid;
+    border-color: white;
+  }
+
+#navbar ul {
+    height: 88%;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+  
+#navbar li {
+    color: white;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    list-style: none;
+    position: relative;
+    width: 100%;
+}
+  
+#navbar li:hover{
+    letter-spacing: 0.2em;
+    transition: 0.5s;
+    color: white;
+    box-shadow: 0 0 10px skyblue;  
+}
+  
+#navbar a:hover{
+    color: skyblue;
+}
+ 
+#navbar a {
+    display: block;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.content li{
+    font-family: 'Courier New', Courier, monospace;
+}
+.content ol{
+    margin-left: 0;
+}
+.content{
+    margin-left: 25%;
+}
+
+.content p{
+    margin-left: 0;
+}
+.intro {
+    margin-left: 25%;
+    text-align: left;
+}
+.intro p{
+    margin-left: 0;
+}

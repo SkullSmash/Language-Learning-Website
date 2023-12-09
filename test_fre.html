@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="test.css" />
+    <script src="progress.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+
+
+  <body>
+    <div id="scroll-progress-bar"></div>
+
+    <main id="main-doc">
+      <section class="main-section" id="test">
+        <header>Test</header>
+        <div id="q1">
+            <script>
+                let a1 = prompt('Q1. red');
+
+                if(a1=='rouge'){
+                    document.getElementById('q1').innerHTML = "<h2>Q1. Correct!</h2>";
+                }else{
+                    document.getElementById('q1').innerHTML = "<h2>Q1. Incorrect!</h2>";
+                    document.write("<p>The correct answer is '<b>rouge</b>'</p>");
+                    
+                }
+                
+                document.write('<hr>');
+            </script>
+        </div>
+
+        <div id="q2">
+            <script>
+                let a2 = prompt('Q2. Black');
+
+                if(a2=='noir'){
+                    document.getElementById('q2').innerHTML = "<h2>Q2. Correct!</h2>";
+                }else{
+                    document.getElementById('q2').innerHTML = "<h2>Q2. Incorrect!</h2>";
+                    document.write("<p>The correct answer is '<b>noir</b>'</p>");
+                }
+                document.write('<hr>');
+            </script>
+        </div>
+
+        <div id="q3">
+            <script>
+                let a3 = prompt('Q3. aunt');
+
+                if(a3=='tante'){
+                    document.getElementById('q3').innerHTML = "<h2>Q3. Correct!</h2>";
+                }else{
+                    document.getElementById('q3').innerHTML = "<h2>Q3. Incorrect!</h2>";
+                    document.write("<p>The correct answer is '<b>tante</b>'</p>");
+                }
+                document.write('<hr>');
+            </script>
+        </div>
+
+        <div id="q4">
+            <script>
+                let a4 = prompt('Q4. house');
+
+                if(a4=='maison'){
+                    document.getElementById('q4').innerHTML = "<h2>Q4. Correct!</h2>";
+                }else{
+                    document.getElementById('q4').innerHTML = "<h2>Q4. Incorrect!</h2>";
+                    document.write("<p>The correct answer is '<b>maison</b>'</p>");
+                }
+                document.write('<hr>');
+            </script>
+        </div>
+
+        <div id="q5">
+            <script>
+                let a5 = prompt('Q5. windy');
+
+                if(a5=='venteux'){
+                    document.getElementById('q5').innerHTML = "<h2>Q5. Correct!</h2>";
+                }else{
+                    document.getElementById('q5').innerHTML = "<h2>Q5. Incorrect!</h2>";
+                    document.write("<p>The correct answer is '<b>venteux</b>'</p>");
+                }
+                
+            </script>
+        </div>
+
+        <nav id="navbar">
+            <a href="1st_page.html"><i class="material-icons">home</i> Home</a>
+            <ul>
+              <li><a class="nav-link" href="French_intro.html">Introduction</a></li>
+              <li><a class="nav-link" href="French_noun.html">Noms</a></li>
+              <li><a class="nav-link" href="French_pronouns.html">Pronoms</a></li>
+              <li><a class="nav-link" href="French_adj.html">Adjectifs</a></li>
+              <li><a class="nav-link" href="French_color.html">Couleur</a></li>
+              <li><a class="nav-link" href="French_sent.html">Formation de phrases de base</a></li>
+              <li><a class="nav-link" href="testf.html">Temps de test!</a></li>
+            </ul>
+          </nav>  
+
+
+      </section>
+      
+    </main>
+  </body>
+</html>

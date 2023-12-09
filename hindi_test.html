@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="test.css" />
+    <script src="progress.js" defer></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+
+
+  <body>
+    <div id="scroll-progress-bar"></div>
+
+    <main id="main-doc">
+      <section class="main-section" id="test">
+        <header>Test</header>
+        <div id="q1">
+            <script>
+                let a1 = prompt('Q1. आपका क्या नाम है?');
+
+                if(a1=='What is your name?'){
+                    document.getElementById('q1').innerHTML = "<h2>Q1. Correct!</h2>";
+                }else{
+                    document.getElementById('q1').innerHTML = "<h2>Q1. Incorrect!</h2>";
+                    document.write("<p>The correct answer is '<b>What is your name?</b>'</p>");
+                    
+                }
+                
+                document.write('<hr>');
+            </script>
+        </div>
+
+        <div id="q2">
+            <script>
+                let a2 = prompt('Q2. सुंदर');
+
+                if(a2=='Beautiful'){
+                    document.getElementById('q2').innerHTML = "<h2>Q2. Correct!</h2>";
+                }else{
+                    document.getElementById('q2').innerHTML = "<h2>Q2. Incorrect!</h2>";
+                    document.write("<p>The correct answer is '<b>Beautiful</b>'</p>");
+                }
+                document.write('<hr>');
+            </script>
+        </div>
+
+        <div id="q3">
+            <script>
+                let a3 = prompt('Q3. आज मैं हिंदी सीख रहा हूं');
+
+                if(a3=='Today I am learning Hindi'){
+                    document.getElementById('q3').innerHTML = "<h2>Q3. Correct!</h2>";
+                }else{
+                    document.getElementById('q3').innerHTML = "<h2>Q3. Incorrect!</h2>";
+                    document.write("<p>The correct answer is '<b>Today I am learning Hindi</b>'</p>");
+                }
+                document.write('<hr>');
+            </script>
+        </div>
+
+        <div id="q4">
+            <script>
+                let a4 = prompt('Q4. हमारी वेबसाइट से सीखने के लिए धन्यवाद');
+
+                if(a4=='Thank you for learning from our website'){
+                    document.getElementById('q4').innerHTML = "<h2>Q4. Correct!</h2>";
+                }else{
+                    document.getElementById('q4').innerHTML = "<h2>Q4. Incorrect!</h2>";
+                    document.write("<p>The correct answer is '<b>Thank you for learning from our website</b>'</p>");
+                }
+                document.write('<hr>');
+            </script>
+        </div>
+
+        <nav id="navbar">
+            <a href="1st_page.html"><i class="material-icons">home</i> Home</a>
+            <ul>
+              <li><a class="nav-link" href="hindi_intro.html">परिचय</a></li>
+              <li><a class="nav-link" href="hindi_noun.html">संज्ञा</a></li>
+              <li><a class="nav-link" href="hindi_pronouns.html">सर्वनाम</a></li>
+              <li><a class="nav-link" href="hindi_adj.html">विशेषण</a></li>
+              <li><a class="nav-link" href="hindi_color.html">रंग</a></li>
+              <li><a class="nav-link" href="hindi_sent.html">मूल वाक्य</a></li>
+              <li><a class="nav-link" href="hindi_test.html">परीक्षा</a></li>
+            </ul>
+        </nav>  
+
+
+      </section>
+      
+    </main>
+  </body>
+</html>
